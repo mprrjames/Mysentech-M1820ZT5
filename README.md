@@ -7,7 +7,7 @@ Make sure to have a 4k7 resistor from data to your MCU's positive. whether that'
 
 The sensor can be purchase online from LCSC:
 https://www.lcsc.com/products/Temperature-Sensors_585.html?keyword=M1820
-![Alt text](relative%20path/to/1820.jpg?raw=true "The Device: ")
+![Alt text](/1820.jpg?raw=true "The Device: ")
 
 in the example code im using pin14 from my ESP32. 
 on an arduino Uno you can use pins 2,3,4,5,6,7,8 to 13. Ie any digital pin that's not being used. 
