@@ -12,3 +12,10 @@ https://www.lcsc.com/products/Temperature-Sensors_585.html?keyword=M1820
 in the example code im using pin14 from my ESP32. 
 on an arduino Uno you can use pins 2,3,4,5,6,7,8 to 13. Ie any digital pin that's not being used. 
 These Mysentech temp sensors also have a unique ID that can be read. multiple probes can share the same data line. 
+
+UPDATE**
+I've added a second .ino file to read multiple sensors from the same IO pin.
+first it scans for any devices attached, records their address, then later gets the temperature from the recorded devices based on their address.
+
+Your'e welcome,
+James
