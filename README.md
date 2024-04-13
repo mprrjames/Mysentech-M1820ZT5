@@ -17,5 +17,4 @@ UPDATE**
 I've added a second .ino file to read multiple sensors from the same IO pin.
 first it scans for any devices attached, records their address, then later gets the temperature from the recorded devices based on their address.
 
-Your'e welcome,
 James
