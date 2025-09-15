@@ -28,6 +28,9 @@ float readTemperature() { // The sensor need this sequnce to
 
 void setup() {
     Serial.begin(115200); // Initialize Serial communication at 115200 baud rate
+Serial.println("serial enabled");
+delay(1200);
+Serial.println("starting now..");
 }
 
 void loop() {
